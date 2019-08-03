@@ -4,10 +4,10 @@ public class Cross {
         String B = "0001000";
         String C = "1000001";
 
-        System.out.println(C + " " + C);
-        System.out.println(A + " " + A);
-        System.out.println(B + " " + B);
-        System.out.println(A + " " + A);
-        System.out.println(C + " " + C);
+        System.out.println(C + " " + C + "\n"
+                + A + " " + A + "\n"
+                + B + " " + B + "\n"
+                + A + " " + A + "\n"
+                + C + " " + C );
     }
 }

@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Cross {
     public static void main(String []args){
         String A = "0010100";
@@ -9,5 +10,16 @@ public class Cross {
                 + B + " " + B + "\n"
                 + A + " " + A + "\n"
                 + C + " " + C );
+
+        Scanner s = new Scanner(System.in);
+        System.out.print("Введіть символ що замінити 1 = ");
+        char old1 = s.next().charAt(0);
+        System.out.print("Введіть символ що замінити 2 = ");
+        char old2 = s.next().charAt(0);
+        System.out.print("Введіть символ на що замінити 1 = ");
+        char new1 = s.next().charAt(0);
+        System.out.print("Введіть символ на що замінити 2 = ");
+        char new2 = s.next().charAt(0);
+
     }
 }
